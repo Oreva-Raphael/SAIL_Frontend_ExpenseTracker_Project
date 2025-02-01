@@ -24,9 +24,13 @@
     
   }
   footer{
+
     display: flex;
     gap: 20px;
     border-top-style: solid;
+    width: 1120px;
     border-color: #102136;
     color:#21212199;
+    margin-left: 70px;
+  
 }
