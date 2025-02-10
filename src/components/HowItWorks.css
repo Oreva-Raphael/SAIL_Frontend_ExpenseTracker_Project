@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+.how-it-works {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575; 
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    color: #0D121F; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    width: 712px;
+    height: 60px;
+    margin: 30px auto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #90A3BF;
+  }
+  
+  .steps-container {
+    width: 969px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .step {
+    width: 240px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .step-number {
+    border: 6px black solid;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF; 
+    background: #7D286D;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+  }
+  .step-img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 25px;
+    border-radius: 10px;
+    box-Shadow: 10px 10px 20px rgba(125, 38, 141, 0.2);
+
+  }
+  .step-reg{
+    width: 200px;
+    height: 250px;
+  }
+  
+  .step-description {
+    font-size: 20px;
+    font-weight: 500;
+    color: #131825;
+    align-items: center;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background-color: #7D286D;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: #040815;
+    border: 1px solid #00000029;
+  }
+  
+  
