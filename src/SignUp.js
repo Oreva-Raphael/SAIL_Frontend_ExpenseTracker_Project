@@ -7,7 +7,7 @@ function SignUp () {
   });
   
   document.getElementById('loginBtn').addEventListener('click', function () {
-    window.location.href = '/login'; // Replace '/login' with your actual login page URL
+    window.location.href = '/login'; 
   });
 )
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import logo from './assets/Logo.svg'
 import Design from './assets/design.svg'
-``
+
 
 const LandingPage = () => {
   return (
@@ -31,8 +31,8 @@ const LandingPage = () => {
             <button class= "login">
                 login 
              </button>
-             <button id='signupBtn' className="signup"  >
-                <p> Sign up</p> 
+             <button className="signup">
+                 Sign up 
              </button>
         </div>   
     </header>

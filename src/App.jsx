@@ -2,6 +2,7 @@ import LandingPage from './landingPage.jsx'
 import Footer from './Footer.jsx'
 import IncomeDash from './incomeDash.jsx'
 import SignUpForm from "./SignUpForm";
+import Productivity from './productivity.jsx';
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
     <Footer/>
     <IncomeDash/>
     <SignUpForm/>
+    <Productivity/>
 
     </>
   
